@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+openai
+pydantic
+python-dotenv
+aiofiles
+langchain
+typing-extensions
+tqdm
+requests
+langchain-huggingface
+transformers
+huggingface-hub
+aiohttp

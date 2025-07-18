@@ -1,0 +1,41 @@
+.app-container {
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.summary-box {
+  margin-top: 30px;
+  background: #f4f4f4;
+  padding: 20px;
+  border-left: 4px solid #007bff;
+  text-align: left;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 20px;
+}
